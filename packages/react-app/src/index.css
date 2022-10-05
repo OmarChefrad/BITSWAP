@@ -57,3 +57,7 @@ input[type="number"] {
     #1bb2de 99.52%
   );
 }
+
+body::-webkit-scrollbar {
+  width: 0;
+}

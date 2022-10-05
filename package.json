@@ -1,6 +1,7 @@
 {
   "name": "@my-app/monorepo",
   "version": "1.0.0",
+  "license": "UNLICENSED",
   "keywords": [
     "ethereum",
     "react",
@@ -19,8 +20,5 @@
     "packages": [
       "packages/*"
     ]
-  },
-  "resolution":{
-    
   }
 }

@@ -1,6 +1,7 @@
 const styles = {
   // App.js
-  container: "flex justify-center min-h-screen sm:px-16 px-6 bg-site-black",
+  container:
+    "flex justify-center min-h-screen sm:px-16 px-6 bg-site-black scrollbar-thin scrollbar-thumb-site-dim2 scrollbar-track-site-dim1",
   innerContainer:
     "flex justify-between items-center flex-col max-w-[1280px] w-full",
   header: "flex flex-row justify-between items-center w-full sm:py-10 py-6",
@@ -12,7 +13,7 @@ const styles = {
   exchangeBox:
     "relative md:max-w-[700px] md:min-w-[500px] min-w-full max-w-full gradient-border p-[2px] rounded-3xl",
   exchange:
-    "w-full min-h-[400px] bg-site-black backdrop-blur-[4px] rounded-3xl shadow-card flex p-10",
+    "w-full min-h-[400px] bg-site-black backdrop-blur-[4px] rounded-3xl shadow-card flex p-10 flex flex-col justify-center items-center",
 
   // AmountIn & AmountOut
   amountContainer:
@@ -33,7 +34,7 @@ const styles = {
 
   // WalletButton
   walletButton:
-    "bg-site-pink border-none outline-none px-6 py-2 font-poppins font-bold text-lg text-white rounded-3xl leading-[24px] hover:bg-pink-600 transition-all",
+    "bg-site-pink border-none outline-none px-6 py-2 font-poppins font-bold text-lg text-white rounded-lg leading-[24px] hover:bg-pink-600 transition-all h-12 cursor-pointer ease-in-out duration-300",
 
   // loader
   loader: "flex justify-center items-center flex-col w-full min-h-full",
@@ -45,6 +46,6 @@ const styles = {
   balance: "w-full text-left mt-2 ml-2",
   balanceText: "font-poppins font-normal text-dim-white",
   balanceBold: "font-semibold text-white",
-};
+}
 
-export default styles;
+export default styles
