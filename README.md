@@ -1,8 +1,8 @@
 ## BITSWAP
 
-This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
+This project was PowerBy [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
-<img src="https://cdn.discordapp.com/attachments/961369644130766853/1027503159859490887/iphone6bitswap.png" alt="bitswapOnPhone">
+<img src="https://cdn.discordapp.com/attachments/961369644130766853/1027504733381996584/bitswaponPhone.png" alt="bitswapOnPhone">
 
 ## Project reference
 
